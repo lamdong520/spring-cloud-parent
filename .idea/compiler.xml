@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-basic" />
+        <module name="spring-cloud-common" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-member-service" />
+        <module name="spring-cloud-member-service-impl" />
+        <module name="spring-cloud-order-service" />
+        <module name="spring-cloud-order-service-impl" />
+        <module name="spring-cloud-redis" />
+        <module name="spring-cloud-service-impl" />
+        <module name="spring-cloud-sso" />
+        <module name="spring-cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-basic" target="1.8" />
+      <module name="spring-cloud-common" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-member-service" target="1.8" />
+      <module name="spring-cloud-member-service-impl" target="1.8" />
+      <module name="spring-cloud-order-service" target="1.8" />
+      <module name="spring-cloud-order-service-impl" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="spring-cloud-redis" target="1.8" />
+      <module name="spring-cloud-service-api" target="1.8" />
+      <module name="spring-cloud-service-impl" target="1.8" />
+      <module name="spring-cloud-sso" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

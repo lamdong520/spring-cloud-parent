@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-basic/spring-cloud-basic.iml" filepath="$PROJECT_DIR$/spring-cloud-basic/spring-cloud-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" filepath="$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-basic/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-basic/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-member-service/spring-cloud-member-service.iml" filepath="$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-member-service/spring-cloud-member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-member-service-impl/spring-cloud-member-service-impl.iml" filepath="$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-member-service-impl/spring-cloud-member-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-order-service/spring-cloud-order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-order-service/spring-cloud-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-order-service-impl/spring-cloud-order-service-impl.iml" filepath="$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-order-service-impl/spring-cloud-order-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent.iml" filepath="$PROJECT_DIR$/spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-common/spring-cloud-redis/spring-cloud-redis.iml" filepath="$PROJECT_DIR$/spring-cloud-common/spring-cloud-redis/spring-cloud-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-service-api.iml" filepath="$PROJECT_DIR$/spring-cloud-service-api/spring-cloud-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-service-impl.iml" filepath="$PROJECT_DIR$/spring-cloud-service-impl/spring-cloud-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" filepath="$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-basic/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-basic/spring-cloud-zuul/spring-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>

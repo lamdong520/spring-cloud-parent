@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: lam-sso
+server:
+  port: 8040
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8100/eureka/
