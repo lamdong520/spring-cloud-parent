@@ -1,10 +1,26 @@
 
 spring:
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
   application:
     name: lam-sso
+  datasource:
+    url: jdbc:mysql://192.168.3.150:3306/test?zeroDateTimeBehavior=convertToNull&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
-  port: 8040
+  port: 8400
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8100/eureka/
+
+mybatis-plus:
+  mapper-locations: classpath:/mappers/*Mapper.xml
+  typeAliasesPackage: lam.com.cn.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true

@@ -22,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="spring-cloud-basic" target="1.8" />
       <module name="spring-cloud-common" target="1.8" />
+      <module name="spring-cloud-entity" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-member-service" target="1.8" />
       <module name="spring-cloud-member-service-impl" target="1.8" />
